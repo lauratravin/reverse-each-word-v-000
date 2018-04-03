@@ -2,14 +2,13 @@
 def reverse_each_word(sentence1)
    array = []
    new_array = []
-  #  array << sentence1.split(" ")
-  #   array.each { |text|
-  #   #  new_array <<   text.reverse
-  #     puts text
-  #      }
-   #
-  #  new_array
-  test =["Hello there, and how are you?"]
-  text = test.join
-  puts text.reverse
+   array << sentence1.split(" ")
+    array.each { |text|
+
+        string1 = text.join
+      new_array <<  string1.reverse 
+
+       }
+
+   new_array
 end
