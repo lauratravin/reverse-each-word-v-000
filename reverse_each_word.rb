@@ -14,5 +14,5 @@ def reverse_each_word(sentence1)
      put "I am: #{text}"
    }
 
-   new_array
+
 end
