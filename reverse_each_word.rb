@@ -11,5 +11,5 @@ def reverse_each_word(sentence1)
   #  new_array
   test =["cat"]
 
-  put test.reverse
+  puts test.reverse
 end
