@@ -6,8 +6,8 @@ def reverse_each_word(sentence1)
    return array
     array.each { |text|
 
-        return #{text}.reverse  #tranfor each in string
-  
+        puts #{text}.reverse  #tranfor each in string
+
       #  new_array << string1.split(" ")
       #  new_array << string1 # assign the reverse text to the new array
       #    new_array  #return new array
