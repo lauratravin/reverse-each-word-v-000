@@ -9,7 +9,7 @@ def reverse_each_word(sentence1)
   #      }
    #
   #  new_array
-  test =["cat"]
+  test =["Hello there, and how are you?"]
   text = test.join
   puts text.reverse
 end
