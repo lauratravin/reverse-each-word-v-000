@@ -7,5 +7,5 @@ def reverse_each_word(sentence1)
   #    new_array <<   text.reverse
   #     }
     array.reverse
-    new_array
+    # new_array
 end
