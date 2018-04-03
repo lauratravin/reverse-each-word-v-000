@@ -3,12 +3,16 @@ def reverse_each_word(sentence1)
    array = []
    new_array = []
    array << sentence1.split(" ")
-    array.each { |text|
+    # array.each { |text|
+    #
+    #     string1 = text.join  #tranfor each in string
+    #    string1.reverse  #tranfor each to array again.
+    #    new_array <<
+    #    }
 
-        string1 = text.join
-      new_array <<  string1.reverse 
-
-       }
+   array.each { |text|
+     put "I am: #{text}"
+   }
 
    new_array
 end
