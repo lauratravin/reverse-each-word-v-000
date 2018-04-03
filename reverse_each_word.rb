@@ -12,7 +12,7 @@ def reverse_each_word(sentence1)
 
    array.each { |text|
      string1 = text
-     puts "I am: #{text} and I am #{string1}"
+     puts "I am: #{text} and I am #{string1}.reverse"
    }
 
 
