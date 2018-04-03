@@ -11,7 +11,7 @@ def reverse_each_word(sentence1)
     #    }
 
    array.each { |text|
-     put "I am: #{text}"
+     puts "I am: #{text}"
    }
 
 
